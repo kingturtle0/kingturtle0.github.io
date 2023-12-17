@@ -1,8 +1,8 @@
 module.exports = {
-  title: `천천히 끝까지`,
-  description: `거북이의 개발일기`,
+  title: `kingturtle0.github.io`,
+  description: `프론트엔드 개발자, 오영재입니다.`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://kingturtle0.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -13,8 +13,8 @@ module.exports = {
   author: {
     name: `오영재`,
     bio: {
-      role: `개발자`,
-      description: ['아는 것을 설명할 수 있는', '꾸준히 성장하는', '새로운 것을 만드는'],
+      role: `프론트엔드 개발자`,
+      description: ['아는 것을 설명할 수 있는', '모르는 것은 알아낼 수 있는', '개발을 좋아하는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
@@ -72,15 +72,14 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: '크리스마스 트위터 X-mas 개발',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+          '개인 프로젝트로 이름이 X로 바뀐 트위터를 클론코딩하며 크리스마스를 맞아 X-mas를 개발하게 되었습니다. ',
+        techStack: ['firebase', 'react', 'typescript'],
+        thumbnailUrl: 'x-mas.png',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/kingturtle0/x-mas',
+          demo: 'https://x-mas-218be.firebaseapp.com/',
         },
       },
     ],
